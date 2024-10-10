@@ -12,7 +12,8 @@ namespace MovieRentalmanagement
 
         public void createMovie(int movieId, string title, string director, decimal rentalPrice)
         {
-            Movie movie = new Movie(movieId, title, director, rentalPrice); 
+            Movie movie = new Movie(movieId, title, director, rentalPrice);
+            MovieList.Add(movie);
 
         }
     }
