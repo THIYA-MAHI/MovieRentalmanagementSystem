@@ -14,6 +14,9 @@ namespace MovieRentalmanagement
         {
             Movie movie = new Movie(movieId, title, director, rentalPrice);
             MovieList.Add(movie);
+        }
+        public void ReadMovies()
+        {
 
         }
     }
